@@ -126,7 +126,6 @@ header{
     display: inline-block;
     background-color: #DCD9D4;
     background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
-    background-blend-mode: soft-light,screen;
     width: 30px;
     height: 30px;
     color: #fff;
