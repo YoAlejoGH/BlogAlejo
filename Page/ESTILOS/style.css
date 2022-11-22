@@ -22,7 +22,7 @@ body{
 
 header{
     height: 100vh;
-    background-image: linear-gradient(to top, rgb(161, 140, 209, 0.5) 0%, rgb(251, 194, 235, 0.5) 100%), url(../IMAGENES/jonny-gios-OqqTTAoAqIE-unsplash.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(89, 89, 89, 0.5) 100%), url(../IMAGENES/christopher-gower-m_HRfLhgABo-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -58,7 +58,7 @@ header{
     right: 0;
     width: 30vw;
     height: 100%;
-    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -74,7 +74,7 @@ header{
 }
 
 .menu-navegacion a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 
@@ -93,7 +93,7 @@ header{
 .subtitulo{
     text-align: center;
     font-weight: 300;
-    color: #bd6ae7;
+    color: #5d5d5d;
     margin-bottom: 40px;
     font-size: 40px;
 }
@@ -119,12 +119,14 @@ header{
 
 .n-service{
     margin-bottom: 7px;
-    color: #bd6ae7;
+    color: #5d5d5d;
 }
 
 .number{
     display: inline-block;
-    background-image: linear-gradient(to top, rgb(161, 140, 209) 0%, rgb(251, 194, 235) 100%);
+    background-color: #DCD9D4;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background-blend-mode: soft-light,screen;
     width: 30px;
     height: 30px;
     color: #fff;
@@ -227,7 +229,8 @@ header{
 /*Footer*/
 
 footer{
-    background: rgba(189, 106, 231, .5);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
     padding-bottom: 0.1px;
 }
 
@@ -273,7 +276,7 @@ footer{
 
 .social-media-icon:hover{
     background: #fff;
-    color: #bd6ae7;
+    color: #5d5d5d;
 }
 
 .social-media-icon i{
